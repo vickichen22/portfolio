@@ -2,7 +2,7 @@
 <html>
 <head>
 <style>
-h1 {color:pink;font-family: 'Bellefair', serif}
+h1 {color:pink;font-family:Bellefair}
 </style>
 </head>
 
