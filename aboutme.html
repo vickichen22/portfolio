@@ -1,15 +1,39 @@
 <!DOCTYPE html>
 <html>
 <style>
-  h1 {color:pink;font-family:font-family: 'Bellefair', serif;
+
+  body {
+  	background-image:url(http://i.imgur.com/C7PEybs.gif);
   }
+  
+  h1 {
+    color:pink;
+    margin-left:50px;
+    font-family:font-family: 'Bellefair', serif;
+  }
+        
+  #welcome {
+  	display: block;
+    margin-left: 300px;
+    margin-top:-50px;
+   }
+  #image {
+  	display:block;
+    margin-left: 50px;
+    margin-top: 0px;
+  }
+  
 </style>
 
 <body>
 
-<h1> Vicki Chen </h1>
-<button onclick="myFunction()">Welcome</button>
-                                
+<h1>  Vicki Chen </h1>
+	
+	<img id = "welcome" src = "http://orig09.deviantart.net/e3cc/f/2017/173/d/6/welcome____pixel_speech_bubble____animated__by_snipertactician-dbdmv85.png" onclick = "myFunction()" width = "120" height = "80">
+    <img id = "image" src = "https://68.media.tumblr.com/5b56c6bcc6cf9e1d8caa21086cd71e47/tumblr_osdd8dQ3O51wqpzato1_500.gif" width = "250" height = "200">
+    
+
+
 <script>
 function myFunction() {
   alert("Hello! Welcome to my website! This website is a portfolio of my work in Girls Who Code.");
